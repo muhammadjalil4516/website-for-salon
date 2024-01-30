@@ -1,0 +1,1586 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.barber-logo img {
+  height: 50px;
+  width: 100px;
+}
+.barber-logo {
+  cursor: pointer;
+}
+.navbar-list {
+  display: flex;
+  gap: 25px;
+  display: none;
+}
+.navbar-list li {
+  list-style-type: none;
+}
+.navbar-list li a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  align-items: flex-end;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 1;
+}
+
+#para {
+  padding: 5px 0px 5px 0px;
+}
+#para {
+  padding: 5px 0px 10px 0px;
+  font-size: 13px;
+}
+.dropdown-main-div {
+  padding-right: 10px;
+  justify-content: flex-end;
+}
+.dropdown-main-div button {
+  border: none;
+}
+.button-div-links {
+  position: relative;
+  display: inline-block;
+  /* padding-right: 40px; */
+}
+.button-div-links button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+}
+.links-btn {
+  padding: 10px;
+}
+
+.button-content {
+  position: absolute;
+  top: 44px;
+  right: 0px;
+  visibility: hidden;
+
+  flex-direction: column;
+  z-index: 10;
+  background-color: rgb(0, 0, 0);
+}
+.button-content li {
+  border-bottom: 1px solid gray;
+}
+.button-content li:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.button-content li:hover a {
+  color: black;
+}
+
+.dropdown-main-div:hover .button-content {
+  visibility: visible;
+}
+.dropdown-main-div:hover .links-btn {
+  cursor: pointer;
+}
+
+.button-content li {
+  list-style: none;
+  padding: 10px;
+}
+.button-content li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.down-from-header {
+  background-image: url(images/down-from-nav.jpg);
+  /* height: 500px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.divfor-bg-color {
+  background-color: rgba(8, 7, 7, 0.7);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.div-for-flex {
+  color: white;
+  width: max-content;
+  padding: 50px 0px 50px 0px;
+}
+.div-for-flex > button {
+  width: 200px;
+  border: none;
+  border-radius: 35px;
+  padding: 10px 15px;
+  background-color: rgb(130, 114, 50);
+  color: white;
+}
+.div-for-flex h3 {
+  width: 380px;
+  font-size: 40px;
+}
+.traditional-cut {
+  width: 270px;
+}
+.mustache-trim {
+  width: 270px;
+}
+.beard-trim {
+  width: 270px;
+}
+.traditional-cut img {
+  height: 45px;
+  width: 80px;
+}
+
+.mustache-trim img {
+  height: 50px;
+  width: 100px;
+}
+.beard-trim img {
+  height: 50px;
+  width: 100px;
+}
+.divs3-for-flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.service-heading {
+  text-align: center;
+}
+.service-heading > p {
+  text-align: center;
+  opacity: 0.6;
+  padding: 8px;
+}
+.service-heading > h4 {
+  font-size: 25px;
+}
+.service-main-div {
+  padding-top: 50px;
+}
+.service-main-div > button {
+  width: 160px;
+}
+.view-services-button {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.services-btn {
+  border: none;
+  border-radius: 30px;
+  padding: 15px 30px;
+  background-color: rgb(130, 114, 50);
+  color: white;
+}
+p.font {
+  font-size: 25px;
+  padding: 5px 0px 2px 0px;
+}
+p.opacity {
+  opacity: 0.5;
+}
+.div-for-pic img {
+  height: 370px;
+  width: 300px;
+}
+
+.div-for-sidecontent {
+  width: 550px;
+  background-color: white;
+  padding: 30px;
+}
+.div-1st p {
+  opacity: 0.7;
+  padding-top: 5px;
+}
+.div-1st h3 {
+  font-size: 25px;
+}
+.pic-content {
+  background-color: rgb(244, 241, 236);
+  padding: 30px 0px;
+}
+
+.pic-content1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: max-content;
+  margin: 0 auto;
+}
+.button-div {
+  text-align: center;
+  /* width: max-content; */
+}
+
+.button-div button {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(130, 114, 50);
+  border-radius: 35px;
+  color: white;
+}
+.h4-p {
+  text-align: center;
+}
+.h4-p h4 {
+  font-size: 30px;
+}
+.h4-p p {
+  font-size: 15px;
+  opacity: 0.7;
+  padding-top: 5px;
+}
+.divfor-reviewsflex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.reviews-p {
+  width: 250px;
+}
+.reviewr-name {
+  padding: 5px 0px 0px 0px;
+}
+
+.reviews-main-div2 {
+  align-items: center;
+  padding: 50px;
+}
+.reviews-p1 {
+  opacity: 0.7;
+}
+.p-34 {
+  opacity: 0.7;
+}
+
+.pic-with-3p {
+  background-image: url(images/man-in-jacket.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.pic-with-3p-1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  justify-content: center;
+  padding-left: 120px;
+}
+.pic-with-3p-1 h4 {
+  font-size: 30px;
+}
+.pic-with-3p-1 button {
+  background-color: rgb(130, 114, 50);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+.pic-with-3p-1 p {
+  opacity: 0.7;
+}
+.for-pic-and-content img {
+  height: 300px;
+  width: 300px;
+}
+.for-pic-and-content {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  background-color: rgb(244, 241, 236);
+  margin: 0px auto;
+  padding: 10px;
+}
+.for-pic-and-content img {
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.best-salon p {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.jan-1 {
+  opacity: 0.7;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.co .au {
+  color: rgb(130, 114, 50);
+}
+.for-content-flex button {
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(130, 114, 50);
+  color: white;
+  border-radius: 20px;
+}
+.form1 {
+  display: flex;
+}
+.form1 input {
+  padding: 15px 35px 15px 0px;
+  border: none;
+  color: black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.form1 button {
+  padding: 0px 15px;
+  background-color: rgb(130, 114, 50);
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+}
+.footer-content {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-color: #232121;
+  color: white;
+  padding: 30px;
+  /* width: 70%; */
+  margin: 0 auto;
+}
+
+.part-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.part-1 h5 {
+  font-size: 25px;
+}
+.location {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+.call {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+
+.landline {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+
+.mail {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+.part-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.part-2-conten {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.part-2 h5 {
+  font-size: 25px;
+}
+.facebook {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+
+.twitter {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+
+.google {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+
+.linkedin {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+.youtube {
+  display: flex;
+  gap: 10px;
+  opacity: 0.7;
+}
+.part-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* width: 350px; */
+}
+.part-3 h5 {
+  font-size: 25px;
+}
+
+.icons-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.second-last-p p {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.secon-last-page {
+  padding-top: 50px;
+}
+@media (max-width: 2560px) and (min-width: 1441px) {
+  header {
+    padding: 0;
+  }
+  .navbar-list {
+    display: flex;
+  }
+  .dropdown-main-div {
+    display: none;
+  }
+  .barber-logo img {
+    height: 105px;
+    width: 170px;
+  }
+  .navbar-list li a {
+    font-size: 38px;
+  }
+  .navbar-list {
+    gap: 40px;
+  }
+
+  .div-for-flex h3 {
+    width: 559px;
+    font-size: 61px;
+  }
+  #para {
+    font-size: 33px;
+  }
+  .div-for-flex > button {
+    width: 325px;
+    font-size: 23px;
+  }
+  .service-heading > h4 {
+    font-size: 61px;
+  }
+  .service-heading > p {
+    font-size: 33px;
+  }
+  .divs3-for-flex {
+    justify-content: space-around;
+    text-align: center;
+  }
+  .mustache-trim img {
+    height: 146px;
+    width: 200px;
+  }
+  .beard-trim img {
+    height: 146px;
+    width: 200px;
+  }
+  .traditional-cut {
+    width: 400px;
+  }
+  .mustache-trim {
+    width: 400px;
+  }
+  .beard-trim {
+    width: 400px;
+  }
+  p.font {
+    font-size: 40px;
+  }
+  p.opacity {
+    font-size: 30px;
+  }
+  .services-btn {
+    font-size: 24px;
+    padding: 15px 30px;
+  }
+  .service-main-div {
+    padding-bottom: 10px;
+  }
+  .view-services-button {
+    padding-top: 20px;
+  }
+  /* .....side pic with side-content.......  */
+  .div-for-pic img {
+    height: 450px;
+    width: 435px;
+  }
+  .div-for-sidecontent {
+    width: 961px;
+  }
+  .div-1st h3 {
+    font-size: 40px;
+  }
+  .div-1st p {
+    font-size: 30px;
+  }
+  .button-div button {
+    font-size: 24px;
+    padding: 15px 30px;
+  }
+  /* .........Reviews Content........  */
+  .divfor-reviewsflex {
+    gap: 50px;
+  }
+  .reviews-main-div2 {
+    padding: 30px;
+  }
+  .h4-p h4 {
+    font-size: 48px;
+  }
+  .h4-p p {
+    font-size: 30px;
+  }
+  .reviews-p {
+    width: 400px;
+  }
+  .reviews-p1 {
+    font-size: 30px;
+  }
+  .reviewr-name {
+    font-size: 30px;
+  }
+  .p-34 {
+    font-size: 30px;
+  }
+  /* .........On Pic Content.......  */
+  .pic-with-3p-1 h4 {
+    font-size: 48px;
+  }
+  .pic-with-3p-1 p {
+    font-size: 30px;
+  }
+  .pic-with-3p-1 button {
+    padding: 14px 30px;
+    font-size: 23px;
+  }
+  /* ......Up Pic and side content.......  */
+  .for-pic-and-content img {
+    height: 450px;
+    width: 435px;
+  }
+  .second-last-p p {
+    font-size: 46px;
+  }
+  .best-salon p {
+    font-size: 45px;
+  }
+  .best {
+    font-size: 30px;
+  }
+  .jan-1 {
+    font-size: 30px;
+  }
+  .for-content-flex button {
+    font-size: 24px;
+    padding: 13px 30px;
+  }
+  .read-more {
+    display: flex;
+    justify-content: center;
+  }
+  .for-content-flex {
+    width: 829px;
+  }
+  .part-1 h5 {
+    font-size: 48px;
+  }
+  .part-2 h5 {
+    font-size: 48px;
+  }
+  .part-3 h5 {
+    font-size: 48px;
+  }
+  .size {
+    font-size: 30px;
+  }
+  .part-3 {
+    width: 720px;
+  }
+  #icons {
+    font-size: 25px;
+  }
+  .icons-content {
+    gap: 15px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1025px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .navbar-list {
+    display: flex;
+  }
+  .dropdown-main-div {
+    display: none;
+  }
+  .navbar-list {
+    gap: 50px;
+  }
+  .navbar-list li a {
+    font-size: 20px;
+  }
+  .service-main-div {
+    padding-top: 30px;
+  }
+  .service-heading > h4 {
+    font-size: 30px;
+  }
+  .service-heading > p {
+    font-size: 23px;
+  }
+  .divs3-for-flex {
+    gap: 140px;
+    text-align: center;
+  }
+  .div-1st h3 {
+    font-size: 25px;
+  }
+  /* .........Reviews Content........  */
+  .h4-p h4 {
+    font-size: 28px;
+  }
+  .divfor-reviewsflex {
+    gap: 100px;
+  }
+  .reviews-main-div2 {
+    padding: 20px;
+  }
+  /* .........On Pic Content.......  */
+  .pic-with-3p-1 h4 {
+    font-size: 28px;
+  }
+  /* ......up pic and side content........ */
+  .secon-last-page {
+    padding-top: 25px;
+  }
+  .second-last-p p {
+    font-size: 27px;
+  }
+  .best-salon p {
+    font-size: 27px;
+  }
+  .for-content-flex {
+    width: 450px;
+  }
+  .for-pic-and-content {
+    gap: 20px;
+  }
+  /* .......Footer Content.....  */
+  .part-3 {
+    width: 390px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  header {
+    display: flex;
+    padding: 5px;
+  }
+  .navbar-list {
+    display: flex;
+  }
+  .dropdown-main-div {
+    display: none;
+  }
+  .divs3-for-flex {
+    align-items: center;
+    text-align: center;
+  }
+  .div-for-sidecontent {
+    width: 440px;
+  }
+  .button-div button {
+    padding: 10px 25px;
+  }
+  .button-div {
+    padding-top: 10px;
+  }
+  .div-for-pic img {
+    height: 340px;
+    width: 270px;
+  }
+  /* .........Reviews Content........  */
+  .h4-p h4 {
+    font-size: 25px;
+  }
+  .reviews-main-div2 {
+    padding: 10px;
+  }
+  /* .........On Pic Content.......  */
+  .pic-with-3p-1 h4 {
+    font-size: 25px;
+  }
+  /* .......up pic and down content.......  */
+  .for-pic-and-content img {
+    height: 340px;
+    width: 270px;
+  }
+  .for-content-flex {
+    width: 450px;
+  }
+  /* .......Footer Content.....  */
+  .part-3 {
+    width: 350px;
+  }
+}
+@media (max-width: 768px) and (min-width: 426px) {
+  header {
+    padding: 5px;
+    flex-direction: column;
+  }
+  .navbar-list {
+    gap: 12px;
+  }
+  .navbar-list li a {
+    font-size: 13px;
+  }
+
+  .div-for-flex h3 {
+    width: 325px;
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+  .div-for-flex > button {
+    font-size: 10px;
+    width: 138px;
+    padding: 9px 7px;
+  }
+  #para {
+    font-size: 14px;
+  }
+  .service-main-div {
+    padding: 10px 5px 0px 5px;
+  }
+  .service-heading > h4 {
+    font-size: 18px;
+  }
+  .service-heading > p {
+    font-size: 15px;
+  }
+
+  .traditional-cut {
+    text-align: center;
+  }
+
+  .font {
+    font-size: 18px;
+  }
+  p.opacity {
+    font-size: 16px;
+  }
+
+  p.price {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .mustache-trim {
+    text-align: center;
+  }
+  .mustache-trim img {
+    height: 37px;
+    width: 50px;
+  }
+  .beard-trim img {
+    height: 37px;
+    width: 50px;
+  }
+  .beard-trim {
+    text-align: center;
+  }
+  .services-btn {
+    font-size: 11px;
+    padding: 8px 13px;
+  }
+  /* ........side pic  and sidecontent.......... */
+  .div-for-pic img {
+    height: 245px;
+    width: 220px;
+  }
+  .div-for-sidecontent {
+    width: 420px;
+    padding: 20px;
+  }
+  .div-1st h3 {
+    font-size: 18px;
+  }
+  .div-1st p {
+    font-size: 16px;
+  }
+  .button-div button {
+    padding: 10px 14px;
+    font-size: 9px;
+  }
+  .button-div {
+    padding-top: 10px;
+  }
+  .pic-content1 {
+    flex-direction: column;
+  }
+  /* .........Reviews Content........  */
+  .reviews-main-div2 {
+    text-align: center;
+    padding: 10px;
+  }
+  .h4-p h4 {
+    font-size: 18px;
+  }
+  .reviews-p1 {
+    font-size: 15px;
+  }
+  /* .........On Pic Content.......  */
+  .pic-with-3p-1 h4 {
+    font-size: 18px;
+  }
+  .pic-with-3p-1 p {
+    font-size: 15px;
+  }
+  .pic-with-3p-1 button {
+    padding: 9px 14px;
+    font-size: 10px;
+  }
+  /* .......up pic and down content.......  */
+  .for-pic-and-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .for-pic-and-content img {
+    height: 245px;
+    width: 220px;
+  }
+  .secon-last-page {
+    padding-top: 20px;
+  }
+  .second-last-p p {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  .img-div {
+    display: flex;
+    margin: 0px auto;
+  }
+  .best-salon p {
+    font-size: 18px;
+  }
+  .best {
+    font-size: 15px;
+  }
+  .jan-1 {
+    font-size: 15px;
+  }
+  .read-more {
+    display: flex;
+    justify-content: center;
+  }
+  .for-content-flex button {
+    padding: 9px 18px;
+    font-size: 10px;
+  }
+  /* .......footer content.......  */
+  .form1 input {
+    padding: 10px 10px;
+  }
+  .part-3 {
+    width: 400px;
+  }
+  .inner-div {
+    width: 300px;
+  }
+  .footer-content {
+    justify-content: left;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .part-1 h5 {
+    font-size: 19px;
+  }
+  .part-2 h5 {
+    font-size: 19px;
+  }
+  .part-3 h5 {
+    font-size: 19px;
+  }
+  .size {
+    font-size: 15px;
+  }
+  .form1 button {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 425px) and (min-width: 376px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    justify-content: space-between;
+  }
+
+  .navbar-list li a {
+    font-size: 12px;
+  }
+  .barber-logo img {
+    width: 80px;
+  }
+
+  .navbar-list {
+    gap: 5px;
+  }
+  .divfor-bg-color {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .div-for-flex h3 {
+    width: 312px;
+    font-size: 18px;
+    padding-bottom: 4px;
+  }
+  .div-for-flex > button {
+    font-size: 10px;
+    width: 138px;
+    padding: 9px 7px;
+  }
+  #para {
+    font-size: 14px;
+  }
+  .service-main-div {
+    padding: 10px 5px 0px 5px;
+  }
+  .service-heading > h4 {
+    font-size: 17px;
+  }
+  .service-heading > p {
+    font-size: 15px;
+  }
+
+  .traditional-cut {
+    text-align: center;
+  }
+
+  .font {
+    font-size: 17px;
+  }
+  p.opacity {
+    font-size: 16px;
+  }
+
+  p.price {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .mustache-trim {
+    text-align: center;
+  }
+  .mustache-trim img {
+    height: 37px;
+    width: 50px;
+  }
+  .beard-trim img {
+    height: 37px;
+    width: 50px;
+  }
+  .beard-trim {
+    text-align: center;
+  }
+  .services-btn {
+    font-size: 10px;
+    padding: 8px 13px;
+  }
+  /* .........Pic With Side Content.........  */
+  .div-for-sidecontent {
+    width: 345px;
+    padding: 10px;
+  }
+  .div-for-pic img {
+    height: 220px;
+    width: 188px;
+  }
+  .div-1st h3 {
+    font-size: 15px;
+  }
+  .div-1st p {
+    font-size: 13px;
+  }
+  .button-div button {
+    padding: 6px 13px;
+    font-size: 10px;
+  }
+  .button-div {
+    padding-top: 8px;
+  }
+  .pic-content1 {
+    flex-direction: column;
+  }
+  /* .........Reviews Content........  */
+  .reviews-main-div2 {
+    padding: 20px;
+    text-align: center;
+  }
+  .h4-p h4 {
+    font-size: 16px;
+  }
+  .h4-p p {
+    font-size: 12px;
+  }
+  .reviews-p1 {
+    font-size: 13px;
+  }
+  .reviewr-name {
+    font-size: 15px;
+  }
+  /* ........On Pic Content.........  */
+  .pic-with-3p-1 {
+    padding: 0px;
+    align-items: center;
+    gap: 5px;
+  }
+  .pic-with-3p-1 h4 {
+    font-size: 16px;
+  }
+  .pic-with-3p-1 p {
+    font-size: 13px;
+    width: 234px;
+  }
+  .pic-with-3p-1 button {
+    padding: 5px 13px;
+    font-size: 9px;
+  }
+  /* .......up pic and down content.......  */
+  .for-pic-and-content {
+    flex-direction: column;
+  }
+  .for-pic-and-content img {
+    height: 220px;
+    width: 188px;
+  }
+  .secon-last-page {
+    padding-top: 20px;
+  }
+  .second-last-p p {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .img-div {
+    display: flex;
+    margin: 0px auto;
+  }
+  .best-salon p {
+    font-size: 16px;
+  }
+  .best {
+    font-size: 13px;
+  }
+  .jan-1 {
+    font-size: 13px;
+  }
+  .read-more {
+    display: flex;
+    justify-content: center;
+  }
+  .for-content-flex button {
+    padding: 5px 15px;
+    font-size: 9px;
+  }
+  /* .......footer Content......  */
+  .footer-content {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .part-1 h5 {
+    font-size: 16px;
+  }
+  .part-2 h5 {
+    font-size: 16px;
+  }
+  .part-3 h5 {
+    font-size: 16px;
+  }
+  .size {
+    font-size: 13px;
+  }
+  .form1 input {
+    padding: 5px 5px 5px 0px;
+    width: 170px;
+    border-radius: 5px;
+    /* text-align: center; */
+  }
+  .form1 {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  .form1 button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: white;
+  }
+}
+@media (max-width: 375px) and (min-width: 321px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-list {
+    gap: 8px;
+  }
+  .navbar-list li a {
+    font-size: 10px;
+  }
+  .divfor-bg-color {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .div-for-flex h3 {
+    width: 312px;
+    font-size: 16px;
+    padding-bottom: 4px;
+  }
+  .div-for-flex > button {
+    font-size: 9px;
+    width: 123px;
+    padding: 9px 7px;
+  }
+  #para {
+    font-size: 14px;
+  }
+
+  .service-main-div {
+    padding: 10px 5px 0px 5px;
+  }
+  .service-heading > h4 {
+    font-size: 16px;
+  }
+  .service-heading > p {
+    font-size: 14px;
+  }
+
+  .traditional-cut {
+    text-align: center;
+  }
+
+  .font {
+    font-size: 16px;
+  }
+  p.opacity {
+    font-size: 14px;
+  }
+
+  p.price {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .mustache-trim {
+    text-align: center;
+  }
+  .mustache-trim img {
+    height: 37px;
+    width: 50px;
+  }
+  .beard-trim img {
+    height: 37px;
+    width: 50px;
+  }
+  .beard-trim {
+    text-align: center;
+  }
+  .services-btn {
+    font-size: 10px;
+    padding: 8px 13px;
+  }
+  /* .......... Pic with Side content............. */
+  .div-for-sidecontent {
+    width: 310px;
+    padding: 10px;
+  }
+  .div-for-pic img {
+    height: 220px;
+    width: 188px;
+  }
+  .div-1st h3 {
+    font-size: 15px;
+  }
+  .div-1st p {
+    font-size: 13px;
+  }
+  .button-div button {
+    padding: 5px 13px;
+    font-size: 9px;
+  }
+  .button-div {
+    padding-top: 8px;
+  }
+  .pic-content1 {
+    flex-direction: column;
+  }
+  /* .........Reviews Content........  */
+  .reviews-main-div2 {
+    padding: 10px;
+    text-align: center;
+  }
+  .h4-p h4 {
+    font-size: 16px;
+  }
+  .h4-p p {
+    font-size: 12px;
+  }
+  .reviews-p1 {
+    font-size: 13px;
+  }
+  .reviewr-name {
+    font-size: 15px;
+  }
+  /* ........On Pic Content.........  */
+  .pic-with-3p-1 {
+    padding: 0px;
+    align-items: center;
+    gap: 5px;
+  }
+  .pic-with-3p-1 h4 {
+    font-size: 16px;
+  }
+  .pic-with-3p-1 p {
+    font-size: 13px;
+    width: 234px;
+  }
+  .pic-with-3p-1 button {
+    padding: 5px 13px;
+    font-size: 9px;
+  }
+  /* .......up pic and down content.......  */
+  .for-pic-and-content {
+    flex-direction: column;
+  }
+  .for-pic-and-content img {
+    height: 220px;
+    width: 188px;
+  }
+  .secon-last-page {
+    padding-top: 20px;
+  }
+  .second-last-p p {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .img-div {
+    display: flex;
+    margin: 0px auto;
+  }
+  .best-salon p {
+    font-size: 16px;
+  }
+  .best {
+    font-size: 13px;
+  }
+  .jan-1 {
+    font-size: 13px;
+  }
+  .read-more {
+    display: flex;
+    justify-content: center;
+  }
+  .for-content-flex button {
+    padding: 5px 15px;
+    font-size: 9px;
+  }
+  /* .......footer Content......  */
+  .footer-content {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .part-1 h5 {
+    font-size: 16px;
+  }
+  .part-2 h5 {
+    font-size: 16px;
+  }
+  .part-3 h5 {
+    font-size: 16px;
+  }
+  .size {
+    font-size: 13px;
+  }
+  .form1 input {
+    padding: 5px 5px 5px 0px;
+    width: 150px;
+    border-radius: 5px;
+    /* text-align: center; */
+  }
+  .form1 {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  .form1 button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: white;
+  }
+}
+@media (max-width: 320px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-list {
+    gap: 5px;
+    /* display: none; */
+  }
+
+  .navbar-list li a {
+    font-size: 10px;
+  }
+  .divfor-bg-color {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .div-for-flex h3 {
+    width: 294px;
+    font-size: 16px;
+    padding-bottom: 4px;
+  }
+  .div-for-flex > button {
+    font-size: 8px;
+    width: 100px;
+    padding: 6px 5px;
+  }
+
+  .service-main-div {
+    padding: 10px 5px 0px 5px;
+  }
+  .service-heading > h4 {
+    font-size: 15px;
+  }
+  .service-heading > p {
+    font-size: 13px;
+  }
+
+  .traditional-cut {
+    text-align: center;
+  }
+
+  .font {
+    font-size: 15px;
+  }
+  p.opacity {
+    font-size: 13px;
+  }
+
+  p.price {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .mustache-trim {
+    text-align: center;
+  }
+  .mustache-trim img {
+    height: 37px;
+    width: 50px;
+  }
+  .beard-trim img {
+    height: 37px;
+    width: 50px;
+  }
+  .beard-trim {
+    text-align: center;
+  }
+  .services-btn {
+    font-size: 8px;
+    padding: 7px 12px;
+  }
+  .div-for-sidecontent {
+    width: 290px;
+    padding: 10px;
+  }
+  .div-for-pic img {
+    height: 220px;
+    width: 188px;
+  }
+  .div-1st h3 {
+    font-size: 15px;
+  }
+  .div-1st p {
+    font-size: 13px;
+  }
+  .button-div button {
+    padding: 5px 13px;
+    font-size: 9px;
+  }
+  .button-div {
+    padding-top: 8px;
+  }
+  .pic-content1 {
+    flex-direction: column;
+  }
+  /* .........Reviews Content........  */
+
+  .reviews-main-div2 {
+    padding: 20px;
+    /* text-align: center; */
+  }
+  .h4-p h4 {
+    font-size: 16px;
+  }
+  .h4-p p {
+    font-size: 12px;
+  }
+  .reviews-p1 {
+    font-size: 13px;
+  }
+  .reviewr-name {
+    font-size: 15px;
+  }
+  /* ........On Pic Content.......  */
+  .pic-with-3p-1 {
+    padding: 0px;
+    align-items: center;
+    gap: 5px;
+  }
+  .pic-with-3p-1 h4 {
+    font-size: 16px;
+  }
+  .pic-with-3p-1 p {
+    font-size: 13px;
+    width: 234px;
+  }
+  .pic-with-3p-1 button {
+    padding: 5px 13px;
+    font-size: 9px;
+  }
+  /* ........up pic and down content.........  */
+  .for-pic-and-content {
+    flex-direction: column;
+  }
+  .for-pic-and-content img {
+    height: 220px;
+    width: 188px;
+  }
+  .secon-last-page {
+    padding-top: 20px;
+  }
+  .second-last-p p {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+  .img-div {
+    display: flex;
+    margin: 0px auto;
+  }
+  .best-salon p {
+    font-size: 16px;
+  }
+  .best {
+    font-size: 13px;
+  }
+  .jan-1 {
+    font-size: 13px;
+  }
+  .read-more {
+    display: flex;
+    justify-content: center;
+  }
+  .for-content-flex button {
+    padding: 5px 15px;
+    font-size: 9px;
+  }
+  /* .......footer Content......  */
+  .footer-content {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .part-1 h5 {
+    font-size: 16px;
+  }
+  .part-2 h5 {
+    font-size: 16px;
+  }
+  .part-3 h5 {
+    font-size: 16px;
+  }
+  .size {
+    font-size: 13px;
+  }
+  .form1 input {
+    padding: 5px 5px 5px 0px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  .form1 {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  .form1 button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 11px;
+    color: black;
+  }
+}
